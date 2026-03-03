@@ -9,6 +9,7 @@
 //
 
 import SwiftUI
+import Combine
 
 @MainActor
 class RecipesViewModel: ObservableObject {
@@ -19,7 +20,7 @@ class RecipesViewModel: ObservableObject {
     private let service: RecipeService
     
     // Injection de service (permet de changer facilement pour une API)
-    init(service: RecipeService = StaticRecipeService()) {
+    init(service: RecipeService) {
         self.service = service
     }
     

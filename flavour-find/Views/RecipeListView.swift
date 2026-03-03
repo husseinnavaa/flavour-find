@@ -10,7 +10,7 @@
 import SwiftUI
 
 struct RecipeListView: View {
-    @StateObject private var viewModel = RecipesViewModel()
+    @StateObject private var viewModel = RecipesViewModel(service: StaticRecipeService())
     
     var body: some View {
         NavigationStack {
