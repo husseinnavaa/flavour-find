@@ -97,7 +97,7 @@ struct RecipeDetailView: View {
         }
         .navigationTitle(recipe.name)
         .navigationBarTitleDisplayMode(.inline)
-        // Menu contextuel (exigé)
+        // Menu contextuel
         .contextMenu {
             Button {
                 viewModel.toggleFavorite(for: recipe)
