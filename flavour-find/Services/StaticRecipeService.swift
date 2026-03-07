@@ -20,7 +20,7 @@ class StaticRecipeService: RecipeService {
                 description: "Un classique italien crémeux sans crème.",
                 ingredients: ["Pâtes", "Œufs", "Pecorino", "Lardons", "Poivre"],
                 steps: ["Faire cuire les pâtes", "Mélanger œufs et fromage", "Cuire les lardons", "Mélanger le tout hors du feu"],
-                imageName: "pasta",
+                imageName: "spaghetti-carbonara",
                 isFavorite: false,
                 cookingTime: 20
             ),
@@ -29,7 +29,7 @@ class StaticRecipeService: RecipeService {
                 description: "Salade fraîche avec poulet grillé et sauce César.",
                 ingredients: ["Laitue", "Poulet", "Parmesan", "Croûtons", "Sauce César"],
                 steps: ["Laver la laitue", "Griller le poulet", "Mélanger tous les ingrédients", "Ajouter la sauce"],
-                imageName: "salad",
+                imageName: "salade-cesar",
                 isFavorite: true,
                 cookingTime: 15
             ),
@@ -38,7 +38,7 @@ class StaticRecipeService: RecipeService {
                 description: "Dessert traditionnel français.",
                 ingredients: ["Pâte brisée", "Pommes", "Sucre", "Beurre", "Cannelle"],
                 steps: ["Étaler la pâte", "Peler et couper les pommes", "Disposer les pommes", "Cuire 30 min à 180°"],
-                imageName: "applepie",
+                imageName: "tarte-aux-pommes",
                 isFavorite: false,
                 cookingTime: 45
             ),
@@ -68,7 +68,7 @@ class StaticRecipeService: RecipeService {
                     "Monter les blancs en neige",
                     "Incorporer délicatement et réfrigérer 2h"
                 ],
-                imageName: "chocolatemousse",
+                imageName: "mousse-au-chocolat",
                 isFavorite: false,
                 cookingTime: 20
             ),
@@ -98,7 +98,7 @@ class StaticRecipeService: RecipeService {
                     "Assaisonner",
                     "Cuire environ 1h15"
                 ],
-                imageName: "roastchicken",
+                imageName: "poulet-roti",
                 isFavorite: false,
                 cookingTime: 75
             ),
@@ -113,7 +113,7 @@ class StaticRecipeService: RecipeService {
                     "Assembler avec tomate et laitue",
                     "Ajouter la sauce"
                 ],
-                imageName: "burger",
+                imageName: "burger-maison",
                 isFavorite: false,
                 cookingTime: 20
             ),
@@ -128,7 +128,7 @@ class StaticRecipeService: RecipeService {
                     "Ajouter le fromage",
                     "Plier l'omelette et servir"
                 ],
-                imageName: "omelette",
+                imageName: "omelette-au-fromage",
                 isFavorite: false,
                 cookingTime: 10
             ),
