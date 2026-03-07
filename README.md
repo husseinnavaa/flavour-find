@@ -1,4 +1,4 @@
-**flavour-find** is an iOS recipe application developed in SwiftUI as part of a academic project.  
+# flavour-find** is an iOS recipe application developed in SwiftUI as part of a academic project.  
 It focuses on demonstrating practical iOS development skills including:
 
 - **User Interface**: Building responsive and adaptive layouts with SwiftUI.
@@ -10,7 +10,7 @@ It focuses on demonstrating practical iOS development skills including:
 
 The app currently uses a static data source, but its architecture (through a `RecipeService` protocol) makes it easy to switch to a real API later.
 
-## Features
+## ✨ Features
 
 - List of recipes with images, cooking time, and favorite indicator
 - Navigation to a detailed view for each recipe
@@ -20,13 +20,13 @@ The app currently uses a static data source, but its architecture (through a `Re
 - Alphabetical sorting of recipes
 - Loading and error state handling
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - SwiftUI
 - Combine (via `@Published`)
 - MVVM Architecture
 - Git (incremental commit history)
 
-## Author
+## 👨‍💻 Author
 
 Project created by El Houssein Navaa.
